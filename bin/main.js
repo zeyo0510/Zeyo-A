@@ -16,6 +16,8 @@
       /************************************************/
       const shadow = super.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
+      <div>Hello World</div>
+      <hr>
       <ul>
       <li>/app</li>
       <ul>
